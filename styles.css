@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #1f1f1f;
+    border: 1px solid #333;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    max-width: 400px;
+    width: 100%;
+    opacity: 0; /* Start hidden for fade-in effect */
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+    opacity: 0; /* Start hidden for slide-in effect */
+}
+
+.header h2 {
+    font-size: 1.5em;
+    color: #888888;
+    letter-spacing: 1.2px;
+    opacity: 0; /* Start hidden for slide-in effect */
+}
+
+.about-me {
+    text-align: center;
+}
+
+.about-me h3 {
+    font-size: 1.8em;
+    color: #ffcc00;
+    margin-bottom: 1em;
+    transform: scale(0); /* Start small for bounce-in effect */
+}
+
+.about-me p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #cccccc;
+    opacity: 0; /* Start hidden for fade-in effect */
+}
