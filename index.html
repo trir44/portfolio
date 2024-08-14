@@ -4,27 +4,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chase Wilson - About Me</title>
+    <title>Chase Wilson - Landing Page</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <section class="section is-flex is-justify-content-center is-align-items-center min-vh-100">
+    <!-- Hero Section -->
+    <section class="hero is-dark is-fullheight">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title">Chase Wilson</h1>
+                <h2 class="subtitle">IT Technician</h2>
+                <p class="description">
+                    The greatest dev ever. Mastering development and tech solutions with a passion for innovation.
+                </p>
+                <a href="#contact" class="button is-warning is-large">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section has-background-dark">
         <div class="container">
-            <div class="box has-background-dark has-text-white">
-                <div class="content has-text-centered">
-                    <h1 class="title has-text-white">Chase Wilson</h1>
-                    <h2 class="subtitle has-text-grey-light">IT Technician</h2>
-                    <hr class="has-background-grey-dark">
-                    <h3 class="title is-4 has-text-warning">About Me</h3>
-                    <p class="has-text-grey-light">
-                        I’m Chase Wilson, the greatest dev ever. With a passion for technology and innovation, I’ve honed my skills in IT over the years, mastering the art of development and tech solutions. My journey is driven by a relentless pursuit of excellence and a love for solving complex problems.
-                    </p>
-                    <p class="has-text-grey-light">
-                        When I’m not coding, you can find me exploring the latest tech trends, working on personal projects, or diving deep into the world of gaming.
-                    </p>
-                    <button class="button is-warning is-outlined mt-5">Contact Me</button>
+            <h2 class="title has-text-centered has-text-white">Skills</h2>
+            <div class="columns is-centered">
+                <div class="column is-one-third">
+                    <div class="box has-background-grey-darker">
+                        <h3 class="title is-4 has-text-warning">Web Development</h3>
+                        <p class="has-text-light">Experienced in modern web technologies and frameworks.</p>
+                    </div>
+                </div>
+                <div class="column is-one-third">
+                    <div class="box has-background-grey-darker">
+                        <h3 class="title is-4 has-text-warning">Problem Solving</h3>
+                        <p class="has-text-light">Skilled in identifying and solving complex technical issues.</p>
+                    </div>
+                </div>
+                <div class="column is-one-third">
+                    <div class="box has-background-grey-darker">
+                        <h3 class="title is-4 has-text-warning">Team Collaboration</h3>
+                        <p class="has-text-light">Excellent communicator with a collaborative approach to projects.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="title has-text-centered has-text-white">Portfolio</h2>
+            <div class="columns is-multiline">
+                <div class="column is-one-quarter">
+                    <div class="box has-background-grey-darker">
+                        <h3 class="title is-5 has-text-warning">Project One</h3>
+                        <p class="has-text-light">Description of project one.</p>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="box has-background-grey-darker">
+                        <h3 class="title is-5 has-text-warning">Project Two</h3>
+                        <p class="has-text-light">Description of project two.</p>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="box has-background-grey-darker">
+                        <h3 class="title is-5 has-text-warning">Project Three</h3>
+                        <p class="has-text-light">Description of project three.</p>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="box has-background-grey-darker">
+                        <h3 class="title is-5 has-text-warning">Project Four</h3>
+                        <p class="has-text-light">Description of project four.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section has-background-dark">
+        <div class="container">
+            <h2 class="title has-text-centered has-text-white">Contact Me</h2>
+            <div class="columns is-centered">
+                <div class="column is-half">
+                    <form>
+                        <div class="field">
+                            <label class="label">Name</label>
+                            <div class="control">
+                                <input class="input" type="text" placeholder="Your Name">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Email</label>
+                            <div class="control">
+                                <input class="input" type="email" placeholder="Your Email">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Message</label>
+                            <div class="control">
+                                <textarea class="textarea" placeholder="Your Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="control">
+                            <button class="button is-warning is-fullwidth">Send Message</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
