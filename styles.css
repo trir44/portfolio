@@ -1,32 +1,47 @@
 body {
-    margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #121212;
     color: #ffffff;
+    margin: 0;
 }
 
-.min-vh-100 {
-    min-height: 100vh;
+.hero {
+    background-color: #1f1f1f;
 }
 
-.box {
-    border-radius: 12px;
-    padding: 2em;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+.hero .title, .hero .subtitle {
+    color: #ffffff;
 }
 
-hr {
-    border: none;
-    height: 1px;
-    background-color: #444;
+.hero .description {
+    color: #cccccc;
+    margin: 20px 0;
 }
 
-.button.is-warning.is-outlined {
+.button.is-warning {
     border-color: #ffcc00;
     color: #ffcc00;
 }
 
-.button.is-warning.is-outlined:hover {
+.button.is-warning:hover {
     background-color: #ffcc00;
     color: #1f1f1f;
+}
+
+.box {
+    border-radius: 8px;
+    padding: 2em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+.box.has-background-grey-darker {
+    background-color: #333;
+}
+
+.has-text-warning {
+    color: #ffcc00;
+}
+
+.has-text-light {
+    color: #cccccc;
 }
